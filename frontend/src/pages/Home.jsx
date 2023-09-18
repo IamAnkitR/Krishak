@@ -6,13 +6,17 @@ const Home = () => {
     <>
       <div className="w-screen h-20 bg-green-100 flex justify-between p-6">
         <div>
-          <h1>Logo</h1>
+          <Link to="#">
+            <h1>Logo</h1>
+          </Link>
         </div>
         <ul className="flex gap-8 mr-10">
           <li>Home</li>
           <li>Products</li>
           <li>About</li>
-          <li>Login</li>
+          <Link to="/signin">
+            <li>Login</li>
+          </Link>
         </ul>
       </div>
       <div>

@@ -5,10 +5,10 @@ const path = require("path");
 
 app.use(cors()); // using cross origin requests
 
-const port = process.env.port || 5000;
+const port = process.env.port || 3000;
 
 app.use(express.static(path.join(__dirname, "public")));
 
-app.listen(process.env.PORT || 5000, () => {
+app.listen(port, () => {
     console.log(`Express server started at port ${port}`);
 });

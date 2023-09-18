@@ -87,7 +87,7 @@ const SignupForm = () => {
         </div>
         <div className="flex justify-around mt-2">
           <span className="text-xl font-semibold mr-28 pr-5">Go Back</span>
-          <Link to="/dashboard">
+          <Link to="/">
             <button className="bg-gray-700 hover:bg-gray-800 text-white font-semibold py-2 px-4 rounded-md w-20">
               Home
             </button>
